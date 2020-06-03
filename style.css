@@ -1,0 +1,526 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ----  header ---- */
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    
+}
+
+nav h1 {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 0px 45px;
+
+
+}
+
+nav h1 span {
+    color: rgb(250, 89, 116);
+}
+
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: inherit;
+    text-decoration: none;
+    padding: 0px 10px;
+
+}
+
+nav ul li a:hover {
+    color: rgb(250, 89, 116);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: inherit;
+}
+
+
+/* ----  Slider  ---- */
+
+.slider {
+    background-image: url(./images/main.jpg);
+    width: 100%;
+    height: 697px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.global {
+    width: 60%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titreslider h1 {
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titreslider h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutonslider {
+    background-color: rgb(250, 89, 116);
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boutonslider :hover{
+    background-color: rgb(255, 113, 137);
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnslider {
+    color: white;
+}
+
+
+/* ----  Charte  ---- */
+
+.charte {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.containercharte {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.containercharte h3 {
+    text-transform: uppercase;
+    padding: 70px 0 25px;
+}
+
+.qualité {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eco {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.equitable {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ----  Card  ---- */
+
+.containercartes {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartes {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.carte1 {
+    height: 275px;
+    width: 450px;
+    background-image: url(./images/article-image-1.jpg);
+    background-position: center;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.carte2 {
+    height: 275px;
+    width: 450px;
+    background-image: url(./images/article-image-2.jpg);
+    background-position: center;
+    border-radius: 15px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+
+.club {
+    height: 100%;
+    width: 170px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.club h3 {
+    text-transform: uppercase;
+}
+
+.club h3:after {
+    display: block;
+    height: 1px;
+    background-color: silver;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    content: " ";
+    text-transform: uppercase;
+
+}
+
+.club p {
+    padding: 0 10px;
+}
+
+.boutoncarte {
+    height: 15%;
+    width: 80%;
+    background-color: rgb(250, 89, 116);
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.club1 {
+    height: 250px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ----  contact  ---- */
+
+.containercontact {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact {
+
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.contactez-nous {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactez-nous h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.contactez-nous h1:after {
+    display: block;
+    height: 1px;
+    background-color: rgb(46, 144, 168);
+    width: 420px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    content: " ";
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+
+}
+
+.form {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 10px 10px;
+}
+
+.mail a {
+    background-color: rgb(250, 89, 116);
+    height: 30px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.toto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/* ----- footer -----*/
+
+.containerfooter {
+    background-color: rgb(19, 19, 19);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer h1 {
+    color: white;
+}
+
+.footer span {
+    color: rgb(250, 89, 116);
+}
+
+.copyright {
+    color: rgb(54, 54, 54);
+}
+
+
+
+
+/* ---- Media ---- */
+
+
+@media screen and (max-width:451px){
+    nav ul li a {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:1179px){
+    .titreslider h2 {
+        font-size: 40px;
+    }
+    .titreslider h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:943px){
+    .titreslider h2 {
+        font-size: 25px;
+    }
+    .titreslider h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:590px){
+    .titreslider h2 {
+        font-size: 15px;
+    }
+    .titreslider h1 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1286px){
+    .containercharte {
+        width: 90%;
+}
+}
+
+@media screen and (max-width: 1000px){
+    .containercharte {
+        width: 100%;
+}
+}
+
+@media screen and (max-width:900px){
+    .charte{
+        height: auto;
+        width: auto;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .containercharte{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .qualité{
+        width: auto;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .eco{
+        width: auto;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .equitable{
+        width: auto;
+        margin-bottom: 25px;
+    }
+}
+
+
+
+@media screen and (max-width:1000px){
+    .cartes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+}
+}
+
+@media screen and (max-width:1001px){
+    .containercartes {
+        height: 900px;
+        width: auto;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:650px){
+    .mail {
+        margin: auto;
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 515px) {
+    .carte1 {
+        height: 70%;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width : 515px) {
+     .carte2{
+        height: 70%;
+        width: 80%;
+    }
+}
+
